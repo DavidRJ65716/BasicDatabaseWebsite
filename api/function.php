@@ -11,7 +11,7 @@ function redirect ($uri)
 
 function db_iconnect ($db){
 	
-	$dblink = new mysqli("localhost","webuser","osuYNHPb2CU75scj","equipment");
+	$dblink = new mysqli("localhost","webuser","#placepassword","equipment");
 	if ($dblink -> connect_errno) {
   	
 		echo "Failed to connect to MySQL: " . $dblink -> connect_error;
